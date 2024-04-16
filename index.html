@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Coming Soon Page</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section class="container">
+    <img src="images/back.jpg" alt="" class="image">
+    <h1>Modern Coming Soon</h1>
+    <div id="text" class="animate__animated">
+      <h2>Coming Soon!</h2>
+      <p>
+        Our website is under construction. We're working hard to improve our
+        website and we'll ready to launch after
+      </p>
+    </div>
+    <div id="timeContent" class="animate__animated">
+      <div class="time-content">
+        <div class="time days">
+          <span class="number"></span>
+          <span class="text">days</span>
+        </div>
+        <div class="time hours">
+          <span class="number"></span>
+          <span class="text">hours</span>
+        </div>
+        <div class="time minutes">
+          <span class="number"></span>
+          <span class="text">minutes</span>
+        </div>
+        <div class="time seconds">
+          <span class="number"></span>
+          <span class="text">seconds</span>
+        </div>
+      </div>
+    </div>
+    <div id="progressContent" class="animate__animated">
+      <div class="progress">
+        <div class="progress-done" data-done="85">
+          85%
+        </div>
+      </div>
+    </div>
+    <div id="emailContent" class="animate__animated">
+      <div class="email-content">
+        <p>Subscribe now to get the latest updates!</p>
+        <form action="" id="subscribeForm">
+          <div class="input-box">
+            <input type="email" id="emailInput" placeholder="Enter you email">
+
+            <button>Notify Me</button>
+          </div>
+          <span id="emailError" class="error-message"></span>
+        </form>
+      </div>
+    </div>
+    <div id="twitterContent" class="animate__animated">
+      <div class="twitter-content">
+        <!-- Twitter content goes here -->
+        <a href="https://twitter.com/twitter?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+          data-show-count="false">Follow @twitter</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+    <div id="socialMediaContent" class="animate__animated">
+      <div class="social-media-content">
+        <!-- Social media content goes here -->
+        <p>Social media content goes here</p>
+      </div>
+    </div>
+  </section>
+  <aside class="sidebar">
+    <h3>Set the content:</h3>
+    <label><input type="checkbox" id="showTextContent"> Text</label>
+    <label><input type="checkbox" id="showTimeContent"> Countdown</label>
+    <label><input type="checkbox" id="showProgressContent"> Progress</label>
+    <label><input type="checkbox" id="showEmailContent"> Subscription</label>
+    <label><input type="checkbox" id="showTwitterContent"> Twitter</label>
+    <!-- <label><input type="checkbox" id="showSocialMediaContent">Social</label> -->
+  </aside>
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
